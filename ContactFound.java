@@ -62,18 +62,24 @@ public class ContactFound implements ActionListener {
         // foundName.setBorder(BorderFactory.createLineBorder(new Color(75, 0, 130), 3));
         foundName.setForeground(new Color(75, 0, 130));
         foundName.setHorizontalAlignment(JTextField.CENTER);
+        foundName.setEditable(false);
+        foundName.setFocusable(false);
         
         foundMobile.setBounds(50, 90, 300, 40);
         foundMobile.setFont(new Font("Calibri", Font.PLAIN, 23));
         // foundMobile.setBorder(BorderFactory.createLineBorder(new Color(75, 0, 130), 3));
         foundMobile.setForeground(new Color(75, 0, 130));
         foundMobile.setHorizontalAlignment(JTextField.CENTER);
+        foundMobile.setEditable(false);
+        foundMobile.setFocusable(false);
         
         foundEmail.setBounds(50, 130, 300, 40);
         foundEmail.setFont(new Font("Calibri", Font.PLAIN, 23));
         // foundEmail.setBorder(BorderFactory.createLineBorder(new Color(75, 0, 130), 3));
         foundEmail.setForeground(new Color(75, 0, 130));
         foundEmail.setHorizontalAlignment(JTextField.CENTER);
+        foundEmail.setEditable(false);
+        foundEmail.setFocusable(false);
     }
 
 
